@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://example.com/wsdl" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://example.com/wsdl">
+
+    <wsdl:types>
+        <!-- Definiciones de tipos de datos aquí -->
+    </wsdl:types>
+
+    <wsdl:message name="MyRequest">
+        <!-- Definiciones de mensajes aquí -->
+    </wsdl:message>
+
+    <wsdl:message name="MyResponse">
+        <!-- Definiciones de mensajes aquí -->
+    </wsdl:message>
+
+    <wsdl:portType name="MyPortType">
+        <wsdl:operation name="MyOperation">
+            <wsdl:input message="tns:MyRequest"/>
+            <wsdl:output message="tns:MyResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+
+    <wsdl:binding name="MyBinding" type="tns:MyPortType">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="MyOperation">
+            <soap:operation soapAction="http://example.com/MyOperation"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <wsdl:service name="MyService">
+        <wsdl:port name="MyPort" binding="tns:MyBinding">
+            <soap:address location="http://example.com/MyService"/>
+        </wsdl:port>
+    </wsdl:service>
+
+</wsdl:definitions>
