@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+    <persona>
+        <nombre>Juan</nombre>
+        <sexo>Masculino</sexo>
+    </persona>
+    <persona>
+        <nombre>Maria</nombre>
+        <sexo>Femenino</sexo>
+    </persona>
+    <persona>
+        <nombre>Carlos</nombre>
+        <sexo>Masculino</sexo>
+    </persona>
+    <persona>
+        <nombre>Isabel</nombre>
+        <sexo>Femenino</sexo>
+    </persona>
+    <persona>
+        <nombre>Jose</nombre>
+        <sexo>Masculino</sexo>
+    </persona>
+    <persona>
+        <nombre>Julia</nombre>
+        <sexo>Femenino</sexo>
+    </persona>
+    <persona>
+        <nombre>Antonio</nombre>
+        <sexo>Masculino</sexo>
+    </persona>
+    <persona>
+        <nombre>Beatriz</nombre>
+        <sexo>Femenino</sexo>
+    </persona>
+    <persona>
+        <nombre>Manuel</nombre>
+        <sexo>Masculino</sexo>
+    </persona>
+    <persona>
+        <nombre>Sofia</nombre>
+        <sexo>Femenino</sexo>
+    </persona>
+</personas>

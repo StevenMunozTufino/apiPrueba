@@ -1,0 +1,28 @@
+{
+    "personas": [
+        {
+            "nombre": "Jose",
+            "sexo": "Masculino"
+        },
+        {
+            "nombre": "Julia",
+            "sexo": "Femenino"
+        },
+        {
+            "nombre": "Antonio",
+            "sexo": "Masculino"
+        },
+        {
+            "nombre": "Beatriz",
+            "sexo": "Femenino"
+        },
+        {
+            "nombre": "Manuel",
+            "sexo": "Masculino"
+        },
+        {
+            "nombre": "Sofia",
+            "sexo": "Femenino"
+        }
+    ]
+}
